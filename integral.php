@@ -246,7 +246,7 @@ set_time_limit(1800);
 $user = ""; //这里填用户名
 $passwd = ""; //这里填密码
 $saveFile = "MiFeng_accessToken.data";
-$freq = 100; //抽奖次数，建议不要超过500次，容易超时
+$freq = 100; //抽奖次数，建议不要超过500次，容易超时，推荐100次
 //使用GET的方式，从地址传参, http://xxx/integral.php?user=xxx&passwd=xxx&freq=xxx
 if(isset($_GET['user']) && isset($_GET['passwd']))
 {
